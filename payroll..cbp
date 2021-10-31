@@ -39,7 +39,7 @@ int main()
     gross = normal_pay + overtime_pay;
     tax=0.16 * gross;
     net = gross - tax;
-    // print payslip
+    // print payroll
     printf("emp NO:\t%d\n",emp_no);
     printf("Employee Name: \t%s\n",name);
     printf("normal pay: \t%d\n",normal_pay);
